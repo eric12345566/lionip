@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+body{
+    background: linear-gradient(140deg, #84fab0, #8fd3f4);
+    background-size: 100% 100%;
+    font-family: 'Comfortaa', 'Noto Sans TC', sans-serif;
+}
+
+
+/*nav-bar*/
+
+section#nav-barrr nav.navbar{
+    margin-top: 3em;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+    padding: 0.2em 2em;
+}
+
+section#nav-barrr ul.navbar-nav > li#aboutli{
+    border-bottom: 3px solid #ffffff;
+}
+
+section#nav-barrr ul.navbar-nav > li#githubli{
+    border-bottom: 3px solid #ffffff;
+}
+
+section#nav-barrr ul.navbar-nav > li#aboutli:hover{
+    border-bottom: 3px solid #8fd3f4;
+    -webkit-transition: all 150ms ease-in-out;
+    -moz-transition: all 150ms ease-in-out;
+    -ms-transition: all 150ms ease-in-out;
+    -o-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+section#nav-barrr ul.navbar-nav > li#githubli:hover{
+    border-bottom: 3px solid #84fab0;
+    -webkit-transition: all 150ms ease-in-out;
+    -moz-transition: all 150ms ease-in-out;
+    -ms-transition: all 150ms ease-in-out;
+    -o-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+
+/* IP */
+
+section#ip{
+    color: #FFFFFF;
+}
+
+section#ip .bigIP{
+    font-size: 5em;
+    text-align: center;
+}
+
+section#ip .smallIP{
+    font-size: 1.4em;
+    font-weight: 200;
+    position: relative;
+    left: 1em;
+    top: 0.4em;
+}
+
+section#ip .ips{
+    padding: 6% 30% 3em 30%;
+
+}
+
+section#IPinfo .infobox{
+    font-weight: 300;
+    margin: 0 20% 2em 20%;
+    color: #5d5d5d;
+    background-color: #FFFFFF;
+    padding: 3em;
+    text-align: center;
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+    font-size: 1.2em;
+
+}
+
+section#IPinfo big{
+    font-size: 1em;
+    font-weight: bold;
+    color: #5d5d5d;
+}
+
+@media(max-width:34em){
+    section#ip .ips{
+        padding: 6% 10% 3em 10%;
+    }
+
+    section#IPinfo .infobox{
+        margin: 0 10% 10em 10%;
+        padding: 2em;
+    }
+
+    section#ip .bigIP{
+        font-size: 3em;
+    }
+}
+
+
+/* aboutme */
+
+
+section#aboutme .ericshih{
+    padding: 10% 30% 10% 30%;
+    color: #FFFFFF;
+}
+
+section#aboutme .ericshih > h1{
+    font-size: 7em;
+    text-align: center;
+    font-weight: bold;
+}
+
+section#aboutme .ericshih > p{
+    font-size: 1.3em;
+}
+
+section#aboutme ul{
+    text-align: center;
+    padding: 0;
+}
+
+section#aboutme li{
+    display: inline;
+    margin: 0 1em;
+}
+
+section#aboutme li img{
+    width: 5em;
+}
+
+section#aboutme p.lightdesign{
+    margin-top: 3em;
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: lighter;
+}
+
+@media(max-width:34em){
+    section#aboutme li img{
+        width: 4em;
+    }
+
+    section#aboutme li{
+        margin: 0 2px;
+    }
+
+    section#aboutme .ericshih{
+        padding: 30% 10% 70% 10%;
+    }
+
+    section#aboutme .ericshih > h1{
+        font-size: 4em;
+    }
+
+    section#aboutme p.lightdesign{
+        margin-top: 1.3em;
+    }
+}
