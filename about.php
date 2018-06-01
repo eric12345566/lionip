@@ -41,7 +41,7 @@
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                               <ul class="nav navbar-nav navbar-right">
                                 <li id="aboutli"><a href="about.php">About</a></li>
-                                <li id="githubli"><a href="#">Github</a></li>
+                                <li id="githubli"><a href="https://github.com/eric12345566/lionip">Github</a></li>
                               </ul>
                             </div><!-- /.navbar-collapse -->
                           </div><!-- /.container-fluid -->
